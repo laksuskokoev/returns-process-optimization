@@ -20,7 +20,7 @@ How could a marketplace shorten return-processing time without compromising refu
 - [Prioritized backlog and pilot strategy](docs/backlog.md).
 - [Assumptions and limitations](docs/assumptions.md).
 - [Business findings](reports/findings.md) and [machine-readable summary](reports/summary.json).
-- [SQL](sql/process_kpis.sql), [Python analysis](src/analysis.py), [tests](tests/test_analysis.py), [project story in Russian](docs/project_story_ru.md).
+- [SQL](sql/process_kpis.sql), [Python analysis](src/analysis.py), [tests](tests/test_analysis.py).
 
 ## Run locally (Python 3.10+)
 From the repository root:
