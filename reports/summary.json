@@ -1,0 +1,53 @@
+{
+  "all": {
+    "cases": 1200,
+    "as_is": {
+      "mean_h": 60.54,
+      "p90_h": 92.69,
+      "sla_48h_pct": 39.58
+    },
+    "to_be": {
+      "mean_h": 34.51,
+      "p90_h": 66.12,
+      "sla_48h_pct": 64.92
+    },
+    "handling_hours_saved": 245.93,
+    "labor_savings_rub": 221339.54,
+    "mean_cycle_time_reduction_pct": 43.0
+  },
+  "standard": {
+    "cases": 774,
+    "as_is": {
+      "mean_h": 45.83,
+      "p90_h": 56.12,
+      "sla_48h_pct": 61.37
+    },
+    "to_be": {
+      "mean_h": 19.25,
+      "p90_h": 24.35,
+      "sla_48h_pct": 100.0
+    },
+    "handling_hours_saved": 189.05,
+    "labor_savings_rub": 170149.18
+  },
+  "exception": {
+    "cases": 426,
+    "as_is": {
+      "mean_h": 87.26,
+      "p90_h": 97.22,
+      "sla_48h_pct": 0.0
+    },
+    "to_be": {
+      "mean_h": 62.22,
+      "p90_h": 69.62,
+      "sla_48h_pct": 1.17
+    },
+    "handling_hours_saved": 56.88,
+    "labor_savings_rub": 51190.35
+  },
+  "assumptions": {
+    "labor_cost_rub_per_hour": 900,
+    "sla_hours": 48,
+    "scenario": "Simulated TO-BE, not observed after rollout"
+  }
+}
